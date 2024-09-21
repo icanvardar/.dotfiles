@@ -1,15 +1,6 @@
 [submodule "me"]
-  path = me
-  url = git@github.com:icanvardar/.dotfiles-me.git
-[submodule "work"]
-  path = work
-  url = git@github.com:icanvardar/.dotfiles-work.git
-<<<<<<< HEAD
-[submodule ".dotfiles-work"]
-	path = .dotfiles-work
-	url = https://github.com/icanvardar/.dotfiles-work
-[submodule ".dotfiles-me"]
-	path = .dotfiles-me
+	path = me
 	url = https://github.com/icanvardar/.dotfiles-me
-=======
->>>>>>> 2b1ae33ba668a81c71479d94970414aa3feba36b
+[submodule "work"]
+	path = work
+	url = https://github.com/icanvardar/.dotfiles-work
