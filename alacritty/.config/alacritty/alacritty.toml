@@ -24,3 +24,6 @@ style = "Italic"
 family = "Martian Mono Nerd Font"
 style = "Regular"
 
+[window.padding]
+x = 36
+y = 36
