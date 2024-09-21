@@ -1,0 +1,12 @@
+[submodule "me"]
+  path = me
+  url = git@github.com:icanvardar/.dotfiles-me.git
+[submodule "work"]
+  path = work
+  url = git@github.com:icanvardar/.dotfiles-work.git
+[submodule ".dotfiles-work"]
+	path = .dotfiles-work
+	url = https://github.com/icanvardar/.dotfiles-work
+[submodule ".dotfiles-me"]
+	path = .dotfiles-me
+	url = https://github.com/icanvardar/.dotfiles-me
