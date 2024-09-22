@@ -8,5 +8,5 @@ while true; do
   else
     xautolock -enable
   fi
-  sleep 5
+  sleep 30
 done

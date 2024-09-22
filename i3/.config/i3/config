@@ -8,6 +8,7 @@ exec --no-startup-id feh --bg-scale ~/images/gokturk.jpg
 exec --no-startup-id xrdb -merge ~/.Xresources
 exec_always --no-startup-id setxkbmap -option ctrl:nocaps
 exec_always --no-startup-id ~/.local/bin/prevent-lock.sh
+exec_always --no-startup-id ~/.local/bin/workspace-saver.sh
 
 # screenshot
 bindsym Print exec maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date +%Y-%m-%d_%H-%M-%S).jpg"
