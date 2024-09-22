@@ -16,7 +16,7 @@ bindsym Shift+Print exec maim --select "/home/$USER/Pictures/$(date +%Y-%m-%d_%H
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 10
+font pango:monospace 12
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
@@ -99,7 +99,7 @@ set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
-set $ws9 "9"
+set $ws9 "9" #58a6ff
 set $ws10 "10"
 
 # switch to workspace
@@ -151,33 +151,33 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# color schema
-set $rosewater #f5e0dc
-set $flamingo  #f2cdcd
+# color schema - GitHub Dark Default
+set $rosewater #e6edf3
+set $flamingo  #ff7b72
 set $pink      #f5c2e7
-set $mauve     #cba6f7
-set $red       #f38ba8
-set $maroon    #eba0ac
+set $mauve     #bc8cff
+set $red       #ff7b72
+set $maroon    #ebacac
 set $peach     #fab387
-set $yellow    #f9e2af
-set $green     #a6e3a1
-set $teal      #94e2d5
-set $sky       #89dceb
+set $yellow    #d29922
+set $green     #3fb950
+set $teal      #39c5cf
+set $sky       #58a6ff
 set $sapphire  #74c7ec
-set $blue      #89b4fa
+set $blue      #58a6ff
 set $lavender  #b4befe
-set $text      #cdd6f4
-set $subtext1  #bac2de
-set $subtext0  #a6adc8
-set $overlay2  #9399b2
-set $overlay1  #7f849c
-set $overlay0  #6c7086
-set $surface2  #585b70
-set $surface1  #45475a
-set $surface0  #313244
-set $base      #1e1e2e
-set $mantle    #181825
-set $crust     #11111b
+set $text      #e6edf3
+set $subtext1  #b1bac4
+set $subtext0  #484f58
+set $overlay2  #6e7681
+set $overlay1  #484f58
+set $overlay0  #313244
+set $surface2  #0d1117
+set $surface1  #181825
+set $surface0  #11111b
+set $base      #0d1117
+set $mantle    #0d1117
+set $crust     #0d1117
 
 # target                 title     bg    text      indicator    border
 client.focused           $mantle   $mauve $mantle  $rosewater $mauve
