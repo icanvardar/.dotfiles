@@ -7,7 +7,6 @@ exec --no-startup-id picom
 exec --no-startup-id feh --bg-scale ~/images/gokturk.jpg
 exec --no-startup-id xrdb -merge ~/.Xresources
 exec_always --no-startup-id setxkbmap -option ctrl:nocaps
-exec_always --no-startup-id ~/.local/bin/prevent-lock.sh
 
 bindsym $mod+Shift+a focus parent,kill
 
@@ -16,8 +15,15 @@ bindsym Print exec maim --window $(xdotool getactivewindow) "/home/$USER/Picture
 bindsym Ctrl+Print exec maim "/home/$USER/Pictures/$(date +%Y-%m-%d_%H-%M-%S).jpg"
 bindsym Shift+Print exec maim --select "/home/$USER/Pictures/$(date +%Y-%m-%d_%H-%M-%S).jpg"
 
+# workspace management
 bindsym $mod+c exec "/home/$USER/.local/bin/save-workspaces.sh"
 bindsym $mod+p exec "/home/$USER/.local/bin/load-workspaces.sh"
+
+# monitor controlling
+bindsym $mod+t exec "python3 /home/$USER/.local/bin/monitor_controller.py 2 left 1"
+
+# prevent screen lock
+exec_always --no-startup-id ~/.local/bin/prevent-lock.sh
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
