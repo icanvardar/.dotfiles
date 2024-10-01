@@ -19,6 +19,7 @@ My sweet, delicious dotfiles for my gorgeus, and faster than ever development en
 - <a href="https://www.gnu.org/software/stow/" target="_blank">GNU Stow</a>
 - <a href="https://i3wm.org/downloads/" target="_blank">i3</a>
 - <a href="https://github.com/Raymo111/i3lock-color?tab=readme-ov-file#debian" target="_blank">i3-lock-color</a>
+- <a href="https://github.com/icanvardar/i3-screen-util?tab=readme-ov-file#installation" target="_blank">i3-screen-util</a>
 - <a href="http://www.lazyvim.org/installation" target="_blank">LazyVim</a>
 - <a href="https://github.com/libevent/libevent/releases/" target="_blank">libevent</a>
 - <a href="https://github.com/neovim/neovim/releases/tag/v0.10.1" target="_blank">Neovim</a>
