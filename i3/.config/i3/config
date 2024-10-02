@@ -22,8 +22,14 @@ bindsym $mod+p exec i3-screen-util organize --action load --workspaces ~/.dotfil
 # monitor controlling
 bindsym $mod+t exec i3-screen-util toggle -mn 2 -lt left -lo 1 
 
-# prevent screen lock
+# prevent screen lock while playing video on browser
 exec_always --no-startup-id i3-screen-util lockscreen 
+
+# toggle screenkey
+bindsym $mod+n exec i3-screen-util screenkey
+
+# i3lock
+bindsym $mod+shift+x exec betterlockscreen -l dim
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -198,10 +204,6 @@ client.unfocused         $overlay0 $base  $text    $rosewater $overlay0
 client.urgent            $peach    $base  $peach   $overlay0  $peach
 client.placeholder       $overlay0 $base  $text    $overlay0  $overlay0
 client.background        $base
-
-# i3lock
-bindsym $mod+shift+x exec betterlockscreen -l dim
-exec "xautolock -detectsleep -time 3 -locker \"betterlockscreen -l dim\""
 
 bar {
         status_command i3status
