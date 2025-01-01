@@ -5,14 +5,13 @@ My sweet, delicious dotfiles for my gorgeus, and faster than ever development en
 ## Components
 ```txt
 - Editor: Neovim
-- Terminal: alacritty
+- Terminal: ghostty
 - Terminal Multiplexer: tmux
 - Theme: Github Dark Default
-- Window Manager: i3
+- WM: i3
 ```
 
 ## Prerequisites
-- <a href="https://github.com/alacritty/alacritty/blob/master/INSTALL.md" target="_blank">alacritty</a>
 - <a href="https://github.com/betterlockscreen/betterlockscreen?tab=readme-ov-file#installation" target="_blank">betterlockscreen</a>
 - <a href="https://github.com/derf/feh" target="_blank">feh</a>
 - <a href="https://github.com/junegunn/fzf?tab=readme-ov-file#installation" target="_blank">fzf</a>
@@ -49,12 +48,6 @@ Install `playerctl` to activate media control feature of i3:
 
 `sudo apt install playerctl`
 
----
-##### alacritty
-Run before installation:
-  ```bash
-  sudo apt install cmake libfontconfig1-dev
-  ```
 ---
 ##### **ripgrep** (For Neovim's Telescope search)
 Run it if you like to use grep search for LazyVim plugin:
