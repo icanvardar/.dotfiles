@@ -4,6 +4,6 @@ return {
   { "echasnovski/mini.icons", enabled = false },
   { "echasnovski/mini.pairs", enabled = false },
   { "folke/noice.nvim", enabled = false },
-  { "nvim-neo-tree/neo-tree.nvim", enabled = false },
+  { "nvim-neo-tree/neo-tree.nvim", enabled = true },
   { "rcarriga/nvim-notify", enabled = false },
 }

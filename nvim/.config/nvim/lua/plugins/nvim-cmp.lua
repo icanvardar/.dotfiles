@@ -4,5 +4,6 @@ return {
     opts.experimental = {
       ghost_text = false,
     }
+    return opts
   end,
 }
